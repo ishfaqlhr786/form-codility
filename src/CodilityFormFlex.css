@@ -1,0 +1,267 @@
+
+input#file {
+    display: inline-block;
+    width: 100%;
+    padding: 120px 0 0 0;
+    height: 100px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   /* background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png') center center no-repeat #e4e4e4;*/
+    border-radius: 20px;
+    background-size: 100%;
+  }
+.box{
+    display:flex;
+    background-color: #16a085;
+    height:350px;
+    width:100%;
+text-align: center;
+   flex-direction:row
+  /*will show last item in new line if space is not available*/
+}
+
+.col1{
+    flex:1;
+    
+}
+.col2{
+    
+   
+    flex:1;
+    
+}
+.fname{
+    flex:1;
+}
+.lname{
+    flex:1;
+}
+.cnic{
+    flex:1;
+}
+.cnicDate{
+    flex:1;
+}
+.submit{
+    flex:1;
+}
+.pic{
+    flex:1;
+}
+.leftBox{
+    display:flex;
+    background-color: #16a085;
+    height:350px;
+    width:100%;
+    
+   flex-direction:column
+}
+.rightBox{
+    display:flex;
+    background-color: #16a085;
+   text-align: center;
+    height:350px;
+    width:100%;
+    border:5px solid green;
+    margin-top: 30px;
+   flex-direction:column
+}
+
+
+/* 2nd parent box new section of form*/
+
+.box1{
+    display:flex;
+    background-color: #16a085;
+    height:150px;
+    width:100%;
+    
+   flex-direction:row
+  /*will show last item in new line if space is not available*/
+}
+.li1{
+    flex:1
+}
+.li2{
+    flex:1;
+    margin-top:50px; 
+}
+.leftBox1{
+    display:flex;
+    background-color:#16a085;
+    height:150px;
+    width:90%;
+   text-align: center;
+   flex-direction:column
+}
+.mobile{
+    flex:1;
+}
+.province{
+    flex:1;
+}
+.rightBox1{
+    display:flex;
+    background-color: #16a085;
+    height:100px;
+    width:100%;
+    text-align: center;
+   flex-direction:column
+}
+.email{
+    flex:1;
+}
+.games{
+    flex:1;
+}
+/* religion wrapper radio buttons*/
+.box2{
+    display:flex;
+    background-color: #16a085;
+    height:100px;
+    width:100%;
+    padding: 10px;
+    text-align: left;
+    border-bottom:2px solid white;
+    border-left:5px solid white;
+    border-right:5px solid white;
+   flex-direction:row
+  /*will show last item in new line if space is not available*/
+}
+.islam{
+    flex:1;
+}
+.christian{
+    flex:1;
+}
+.hiduism{
+    flex:1;
+}
+.sikhism{
+    flex:1;
+}
+/* qualification and dob*/
+.box3{
+    display:flex;
+    background-color: #16a085;
+    height:100px;
+    width:100%;
+    
+    border-bottom:2px solid white;
+    border-left:5px solid white;
+    border-right:5px solid white;
+   flex-direction:row
+  /*will show last item in new line if space is not available*/
+}
+.edu{
+    flex:1;
+}
+.dob{
+    flex:1;
+}
+/* languages section*/
+.box4{
+    display:flex;
+    background-color: #16a085;
+    height:100px;
+    width:100%;
+    
+    border-bottom:2px solid white;
+    border-left:5px solid white;
+    border-right:5px solid white;
+   flex-direction:row
+  /*will show last item in new line if space is not available*/
+}
+.java{
+    flex:1;
+}
+.net{
+    flex:1
+}
+.php{
+    flex:1;
+}
+.javascript{
+    flex:1;
+}
+/*description section*/
+.box5{
+    display:flex;
+    background-color: #16a085;
+    height:300px;
+    width:100%;
+    text-align: center;
+    border-bottom:2px solid white;
+    border-left:5px solid white;
+    border-right:5px solid white;
+   flex-direction:row
+  /*will show last item in new line if space is not available*/
+}
+.desc{
+    flex:1;
+   
+}
+/*password*/
+.box6{
+    display:flex;
+    background-color: #16a085;
+    height:100px;
+    width:100%;
+    text-align: center;
+    border-bottom:2px solid white;
+    border-left:5px solid white;
+    border-right:5px solid white;
+   flex-direction:row
+  /*will show last item in new line if space is not available*/
+}
+.password{
+    flex:1
+}
+.cpass{
+    flex:1
+}
+/* gender*/
+.box7{
+    display:flex;
+    background-color: #16a085;
+    height:100px;
+    width:100%;
+    text-align: center;
+    border-bottom:2px solid white;
+    border-left:5px solid white;
+    border-right:5px solid white;
+   flex-direction:row
+  /*will show last item in new line if space is not available*/
+}
+.male{
+    flex:1
+}
+.female{
+    flex:1
+}
+.others{
+    flex:1
+}
+.box8{
+    display:flex;
+    background-color: green;
+    height:100px;
+    text-align: center;
+    
+    width:100%;
+    
+    border-bottom:2px solid white;
+    border-left:5px solid white;
+    border-right:5px solid white;
+   flex-direction:row
+  /*will show last item in new line if space is not available*/
+}
+.submit{
+    flex:1;
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+}
